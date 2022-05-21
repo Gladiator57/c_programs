@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     
-    
     int j,size;
     printf("Enter the Size of Array : ");
     scanf("%d",&size);
@@ -17,10 +16,11 @@ int main(){
         printf("%d\t",arr[j]);
     }
     printf("\n");
+    
+    
     int ele;
     int found=0;
     int mid;
-  
     printf("Number of Elements in the array are : \n");
     int len = sizeof(arr)/sizeof(int);
     printf("%d\n",len);
